@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.mainpic{
+    width: 100%;
+    position: relative;
+}
+.baslık{
+    position: absolute;
+    top: 75px;
+    left: 25px;
+    font-size: 100px;
+    color: white;
+    text-shadow: 5px 5px black;
+}
+.nav{
+    display: inline;
+    list-style-type: none;
+    padding-left: 0px;
+    justify-content:start;
+    background-color: #D6E8DB;
+}
+.navbar{
+    background-color: #D6E8DB;
+    padding: 0px 0px;
+    margin-top: -4px;
+    height: 42px;
+}
+.navitem{
+    display: inline-block;
+    width: 100px;
+    background-color: #D6E8DB;
+    color: black;
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.navitem:hover{
+    background-color: #99A98F;
+    transform: translateY(-10px);
+    color: black;
+    border-radius: 5px;
+}
+.takip{
+    display: inline-block;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding: 6px;
+    margin-top: 4px;
+    margin-right: 20px;
+    border-radius: 8px;
+    float: right;
+    text-decoration: none;
+}
+.takip:hover{
+    background-color: gray;
+}
+.arama{
+    display: inline;
+    float: right;
+    margin-right: 15px;
+    margin-top: 4px;
+}
+.ara{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+
+}
+input[type=text]::placeholder{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+input[type=text]:hover{
+    box-shadow: 3px 3px lightgray; 
+}
+input[type=text]:active{
+    font-size: 15px;
+    border: none;
+}
+.card{
+    margin: 20px 0px 5px 0px;
+    background-color: white;
+    max-width: 600px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    display: inline-block;
+}
+.img{
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px;
+    height: auto;
+}
+.card > h3{
+    padding: 0 10px 5px 10px;
+}
+.card > p{
+    padding: 0 10px 5px 10px;
+}
+.begen{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+.begen > li{
+    display: inline-flex;
+    margin-right: 12px;
+}
+.main{
+    float: left;
+    width: 48%;
+    margin-left: 10%;
+    margin-right: 5%;
+    
+}
+.yanpanel{
+    float: left;
+    width: 25%;
+    height: 1000px;
+    margin-top: 20px;
+    margin-left: 2%;
+    min-width: 300px;
+}
+.stick{
+    position: sticky;
+    top: 20px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+.profil{
+    height: 100px;
+    background-color: #D6E8DB;
+}
+.pphoto{
+    border-radius: 100%;
+    border: 3px solid #99A98F;
+    position: relative;
+    top: -60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.name{
+    text-align: center;
+    margin-top: -25px;
+}
+.solpanelul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+.solpanelul > li{
+    background-color: #D6E8DB;
+    margin: 2px 2px;
+    padding: 10px;
+    text-align: center;
+    
+}
